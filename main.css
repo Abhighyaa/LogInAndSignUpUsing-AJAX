@@ -1,0 +1,53 @@
+body{
+	background-color: rgba(214,233,248,10%);
+}
+form{
+
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	padding: 10px 20px;
+	margin : 20px 20px 0 20px;
+	text-align: center;
+	color: #0FB1E2;
+	/*background-color:#0399D9 ;*/
+	background-color: rgba(214,233,248,30%);
+}
+
+fieldset{
+	border: 2px solid #0FB1E2;
+	background-color: rgba(197,230,240,20%);
+
+}
+label,input,button,select{
+	margin: 3px;
+	color: #0FB1E2;
+	font-weight: bold;
+}
+
+input,select{
+	border: .5px grey solid;
+	padding: 5px;
+	margin-right: 10px;
+}
+
+a{
+	text-decoration: none;
+	color: #0FB1E2;
+}
+
+#error{
+	color:red;
+	
+}
+
+img{
+	width: 80px;
+	height:80px;
+	border-radius: 50%;
+}
+p{
+	margin: 3px;
+	color: #0FB1E2;
+}
